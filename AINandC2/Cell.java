@@ -1,4 +1,4 @@
-package AINandC2;
+package com.ZakHolmes.AINandC2;
 
 import javax.swing.*;
 
@@ -6,7 +6,7 @@ public class Cell {
 
     private char value = ' ';
 
-    private JButton jButton;
+    public JButton jButton;
 
     public char getValue() {
         return value;

@@ -1,4 +1,4 @@
-package AINandC2;//pretty much done, decide weather do an ai or not
+package com.ZakHolmes.AINandC2;//pretty much done, decide weather do an ai or not
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -47,7 +47,6 @@ public class NandCAI {
     public static char[][] aiTurn(char[][] grid,boolean ai){
         //for now ai is always O which is the minimiser
         int bestScore = Integer.MAX_VALUE;
-        //char aiTurn = (ai) ? 'X':'O';
         char aiTurn = 'O';
         int[] bestMove = new int[2];//stores the coords for the best move
         for (int i = 0; i <=4 ; i+=2) {
