@@ -1,10 +1,8 @@
 package com.ZakHolmes.AINandC2;//pretty much done, decide weather do an ai or not
 
-import java.util.Arrays;
-import java.util.HashMap;
 import java.util.Scanner;
 
-public class NandCAI {
+public class NandCAIGUI {
     static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args){
         Draw dr = new Draw();
